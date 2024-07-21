@@ -1,3 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 4 PLP MayCohort</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header id="top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">&lt; Group 4 MayCohort &gt;</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#our-projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div id="bg-img1">
+            <section class="introduction">
+                <div class="vh-50 d-flex flex-column justify-content-center align-items-center text-center">
+                    <p class="fs-4 mt-3">Hi there! We are the Group 4 team of PLP's MayCohort</p>
+                    <p class="fs-4 fw-bold mb-1">A group of Aspiring Web Developers</p>
+                    <p class="mb-4">We collaborate and learn together to build both frontend and backend projects</p>
+                    <a href="#contact">
+                        <button type="button" class="btn btn-dark">CONNECT WITH US</button>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <section class="about" id="about-us">
+            <div class="row">
+                <div class="col-md-6 text-center my-3">
+                    <img class="w-75" src="./media/nerd-img2.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p class="fs-2 fw-bold">About Us</p>
+                    <p>
+                        We are a group of goofy nerds who like to learn about new programming languages and still have some fun too.
+                        We have worked on assignments and project tasks related to:
+                    </p>
+                    <ul>
+                        <li>Python and Django</li>
+                        <li>HTML, CSS, Node JS, and MySQL</li>
+                    </ul>
+                    <p>We all have our own strengths and we work together to get things working.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="project" id="our-projects">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="fs-2 fw-bold">Projects</p>
+                    <p>The Expense Tracker is our most recent project</p>
+                    <p>
+                        Project Description: This is a simple expense tracker application built with Node.js, Express, and MySQL.<br>
+                        Users can register, log in, add expenses and view all their expenses.
+                        The project includes authentication to ensure users can only view and modify their own expenses.
+                    </p>
+                    <a href="https://github.com/barbzyqueen/week-4-backend-development-barbzyqueen.git" target="_blank">
+                        <button type="button" class="btn btn-dark">VIEW SOURCE CODE</button>
+                    </a>
+                </div>
+                <div class="col-md-6 text-center my-3">
+                    <img class="w-75" src="media/expense_tracker.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div id="bg-img2">
+                <div class="d-flex flex-column align-items-center justify-content-center text-center">
+                    <p class="fs-2 fw-bold">Let's Connect!</p>
+                    <p class="mw-650">Reach out to any of our Group 4 Team Members listed below:</p>
+                    <section class="contact-info">
+                        <div class="row">
+                            <!-- Insert each team member's info here -->
+                            <!-- Replace '#' with actual LinkedIn and GitHub URLs where available -->
+
+                            <!-- Rethabile Mofokeng -->
+                            <div class="col-md-6 contact-list">
+                                <ul class="d-flex flex-row list-unstyled">
+                                    <li class="px-2">Rethabile Mofokeng</li>
+                                    <li class="px-2">
+                                        <a href="https://github.com/rethabilemof" target="_blank">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                    </li>
+                                    <li class="px-2">
+                                        <a href="https://www.linkedin.com/in/rethabile-mofokeng-5230991b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Amos Wanyama -->
+                            <div class="col-md-6 contact-list">
+                                <ul class="d-flex flex-row list-unstyled">
+                                    <li class="px-2">Amos Wanyama</li>
+                                    <li class="px-2">
+                                        <a href="https://github.com/amoswanyama" target="_blank">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                    </li>
+                                    <li class="px-2">
+                                        <a href="https://www.linkedin.com/in/amos-wanyama-ab679699/" target="_blank">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Raphael Makokha Alietsi -->
+                            <div class="col-md-6 contact-list">
+                                <ul class="d-flex flex-row list-unstyled">
+                                    <li class="px-2">Raphael Makokha Alietsi</li>
+                                    <li class="px-2">
+                                        <a href="https://github.com/Raphael-alietsi" target="_blank">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                    </li>
+                                    <li class="px-2">
+                                        <a href="https://www.linkedin.com/in/raphael-makokha-alietsi-008a6374?trk=contact-info" target="_blank">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Akinnuoye Samuel -->
+                            <div class="col-md-6 contact-list">
+                                <ul class="d-flex flex-row list-unstyled">
+                                    <li class="px-2">Akinnuoye Samuel</li>
+                                    <li class="px-2">
+                                        <a href="https://github.com/samuelldmj" target="_blank">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                    </li>
+                                    <li class="px-2">
+                                        <a href="https://www.linkedin.com/in/akinnuoye-samuel97/" target="_blank">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Barbara Mangiri -->
+                            <div class="col-md-6 contact-list">
+                                <ul class="d-flex flex-row list-unstyled">
+                                    <li class="px-2">Barbara Mangiri</li>
+                                    <li class="px-2">
+                                        <a href="https://github.com/barbzyqueen" target="_blank">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                    </li>
+                                    <li class="px-2">
+                                        <a href="https://www.linkedin.com/in/barbara-mangiri-97480b14b" target="_blank">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Iddy hamis -->
+                            <div class="col-md-6 contact-list">
+                                <ul class="d-flex flex-row list-unstyled">
+                                    <li class="px
+
 <!-- Iddy hamis -->
 <div class="col-md-6 contact-list">
     <ul class="d-flex flex-row list-unstyled">
